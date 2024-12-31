@@ -1,16 +1,9 @@
 // JavaScript source code
 {
-    "version": 2,
-        "builds": [
-            {
-                "src": "./server.js",
-                "use": "@vercel/node"
-            }
-        ],
-            "routes": [
-                {
-                    "src": "/(.*)",
-                    "destination": "/"
-                }
-            ]
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
 }
